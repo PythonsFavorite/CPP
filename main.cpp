@@ -1,4 +1,4 @@
-/* S01 (1б) создать 4 переменных разного типа, продемонстрировать работу четырех арифметических операторов на выбор */
+/* S01 (1ГЎ) Г±Г®Г§Г¤Г ГІГј 4 ГЇГҐГ°ГҐГ¬ГҐГ­Г­Г»Гµ Г°Г Г§Г­Г®ГЈГ® ГІГЁГЇГ , ГЇГ°Г®Г¤ГҐГ¬Г®Г­Г±ГІГ°ГЁГ°Г®ГўГ ГІГј Г°Г ГЎГ®ГІГі Г·ГҐГІГ»Г°ГҐГµ Г Г°ГЁГґГ¬ГҐГІГЁГ·ГҐГ±ГЄГЁГµ Г®ГЇГҐГ°Г ГІГ®Г°Г®Гў Г­Г  ГўГ»ГЎГ®Г° */
 #include <iostream>
 
 using namespace std;
@@ -12,42 +12,42 @@ int main()
     float number4;
 
 
-    cout << "Целочисленная переменная (long): ";
+    cout << "Г–ГҐГ«Г®Г·ГЁГ±Г«ГҐГ­Г­Г Гї ГЇГҐГ°ГҐГ¬ГҐГ­Г­Г Гї (long): ";
     cin >> number1;
-    cout << "Вещественная переменная (double): ";
+    cout << "Г‚ГҐГ№ГҐГ±ГІГўГҐГ­Г­Г Гї ГЇГҐГ°ГҐГ¬ГҐГ­Г­Г Гї (double): ";
     cin >> number2;
-    cout << "Целочисленная переменная (short): ";
+    cout << "Г–ГҐГ«Г®Г·ГЁГ±Г«ГҐГ­Г­Г Гї ГЇГҐГ°ГҐГ¬ГҐГ­Г­Г Гї (short): ";
     cin >> number3;
-    cout << "Вещественная переменная (float): ";
+    cout << "Г‚ГҐГ№ГҐГ±ГІГўГҐГ­Г­Г Гї ГЇГҐГ°ГҐГ¬ГҐГ­Г­Г Гї (float): ";
     cin >> number4;
 
-    //Сложение
-    cout << "\nСложение: " << endl;
+    //Г‘Г«Г®Г¦ГҐГ­ГЁГҐ
+    cout << "\nГ‘Г«Г®Г¦ГҐГ­ГЁГҐ: " << endl;
     cout << "number1 + number2: "<< number1+number2 <<endl;
     cout << "number2 + number3: "<< number2+number3 <<endl;
     cout << "number3 + number4: "<< number3+number4 <<endl;
     cout << "number4 + number1: "<< number4+number1 <<endl;
 
-    //Вычитание
-    cout << "\nВычитание: " <<endl;
+    //Г‚Г»Г·ГЁГІГ Г­ГЁГҐ
+    cout << "\nГ‚Г»Г·ГЁГІГ Г­ГЁГҐ: " <<endl;
     cout << "number1 - number2: " << number1 - number2 <<endl;
     cout << "number2 - number3: " << number2 - number3 <<endl;
     cout << "number3 - number4: " << number3 - number4 <<endl;
     cout << "number4 - number1: " << number4 - number1 <<endl;
 
-    //Умножение
-    cout << "\nУмножение: " <<endl;
+    //Г“Г¬Г­Г®Г¦ГҐГ­ГЁГҐ
+    cout << "\nГ“Г¬Г­Г®Г¦ГҐГ­ГЁГҐ: " <<endl;
     cout << "number1 * number2: " << number1 * number2 << endl;
     cout << "number2 * number3: " << number2 * number3 << endl;
     cout << "number3 * number4: " << number3 * number4 << endl;
     cout << "number4 * number1: " << number1 * number2 << endl;
 
-    //Деление
-    cout << "\nДеление: " <<endl;
-    cout << "number1 / number2: " << number1 * number2 << endl;
-    cout << "number2 / number3: " << number2 * number3 << endl;
-    cout << "number3 / number4: " << number3 * number4 << endl;
-    cout << "number4 / number1: " << number4 * number1 << endl;
+    //Г„ГҐГ«ГҐГ­ГЁГҐ
+    cout << "\nГ„ГҐГ«ГҐГ­ГЁГҐ: " <<endl;
+    cout << "number1 / number2: " << number1 / number2 << endl;
+    cout << "number2 / number3: " << number2 / number3 << endl;
+    cout << "number3 / number4: " << number3 / number4 << endl;
+    cout << "number4 / number1: " << number4 / number1 << endl;
 
     return 0;
 }

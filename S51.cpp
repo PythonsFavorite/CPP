@@ -3,7 +3,7 @@
 #include <cstring>
 using namespace std;
 
-void reversee (char ch[], int Size = 10)
+void reversee (char ch[])
 {
     cout << "Введите строку: ";
     cin >> ch;

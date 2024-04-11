@@ -5,10 +5,11 @@ using namespace std;
 
 void reversee (char ch[])
 {
-    cout << "Введите строку: ";
-    cin >> ch;
-    for (int i = 0; i <= strlen(ch); i++) {
-            cout << ch[strlen(ch+i)];
+    int number = strlen(ch);
+
+    for (int i = number; i != -1; --i)
+    {
+        cout << ch[i];
     }
 }
 
@@ -16,6 +17,9 @@ int main()
 {
     setlocale(0, "Rus");
     char ch[1];
+    cout << "Введите строку: ";
+    cin >> ch;
+
     reversee(ch);
 
 
